@@ -1,7 +1,3 @@
-# Experiment 10
-
-## Code
-```
 // Step 2: Create a database
 use library
 // switched to db library
@@ -47,7 +43,3 @@ db.authors.find().pretty()
 // Step 6: Delete data
 db.authors.deleteOne({ "AuthorID": 1 })
 // Output: { "acknowledged": true, "deletedCount": 1 }
-```
-
-## Expected Output / Result
-MongoDB installed, database created, and insert/update/query/delete operations executed successfully.
