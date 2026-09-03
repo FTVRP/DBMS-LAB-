@@ -1,7 +1,3 @@
-# Experiment 4
-
-## Code
-```
 -- Sample table: customers(id, name, age, address, salary)
 
 -- IMPLICIT CURSOR
@@ -36,9 +32,3 @@ BEGIN
    CLOSE c_customers;
 END;
 /
-```
-
-## Expected Output / Result
-Implicit and explicit cursor programs executed successfully and output verified.
-
----
