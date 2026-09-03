@@ -1,7 +1,3 @@
-# Experiment 2
-
-## Code
-```
 -- Table Creation
 CREATE TABLE Student (StudentID INT, Name VARCHAR(30), Age INT);
 CREATE TABLE Courses (CourseID INT, CourseName VARCHAR(20));
@@ -47,9 +43,3 @@ SELECT Students.StudentID, Students.Name, Students.Age,
 FROM Courses
 RIGHT JOIN Enrollments ON Courses.CourseID = Enrollments.CourseID
 RIGHT JOIN Students ON Enrollments.StudentID = Students.StudentID;
-```
-
-## Expected Output / Result
-Demonstrates INNER JOIN, LEFT JOIN, and RIGHT JOIN across Students, Courses, Enrollments.
-
----
