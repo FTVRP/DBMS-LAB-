@@ -1,7 +1,3 @@
-# Experiment 8
-
-## Code
-```
 -- PRE-DEFINED EXCEPTIONS
 DECLARE
    c_id customer.id%TYPE := 5;
@@ -45,9 +41,3 @@ EXCEPTION
 END;
 /
 -- Output: Enter value for cc_id: -6 -> ID must be greater than zero!
-```
-
-## Expected Output / Result
-PL/SQL program handling all types of exceptions executed successfully.
-
----
