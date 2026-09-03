@@ -1,7 +1,3 @@
-# Experiment 5
-
-## Code
-```
 -- PROCEDURE
 SET SERVEROUTPUT ON;
 
@@ -51,9 +47,3 @@ BEGIN
 END;
 /
 -- Output: Enter value for no1:5, Enter value for no2:5 -> Sum of two nos=10
-```
-
-## Expected Output / Result
-PL/SQL procedure and function executed successfully and output verified.
-
----
