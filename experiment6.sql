@@ -1,7 +1,3 @@
-# Experiment 6
-
-## Code
-```
 -- Sample table: customer(sid, sname, stotal)
 
 -- TRIGGER ON UPDATE
@@ -50,9 +46,3 @@ END;
 /
 -- Test: INSERT INTO classb VALUES('6','jana','it','20000','a');
 -- Raises: ORA-20000: Total not valid
-```
-
-## Expected Output / Result
-Triggers for insert, update, and deletion executed successfully and output verified.
-
----
